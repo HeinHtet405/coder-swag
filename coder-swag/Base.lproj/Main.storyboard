@@ -23,24 +23,25 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="SHOP BY CATEGORY" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="RUI-NA-bx0">
-                                <rect key="frame" x="16" y="16" width="165" height="23.5"/>
+                                <rect key="frame" x="16" y="8" width="165" height="23.5"/>
                                 <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="145" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="Ira-0T-DAV">
-                                <rect key="frame" x="0.0" y="55.5" width="375" height="547.5"/>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" dataMode="prototypes" style="plain" separatorStyle="none" rowHeight="145" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="Ira-0T-DAV">
+                                <rect key="frame" x="0.0" y="39.5" width="375" height="563.5"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <color key="sectionIndexBackgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                                 <prototypes>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="categoryCell" rowHeight="145" id="SAW-1j-f4D" customClass="CategoryCell" customModule="coder_swag" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="28" width="375" height="145"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="SAW-1j-f4D" id="N30-i0-e9e">
-                                            <rect key="frame" x="0.0" y="0.0" width="375" height="144"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="375" height="145"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="digital" translatesAutoresizingMaskIntoConstraints="NO" id="vcq-aI-DdR">
-                                                    <rect key="frame" x="0.0" y="0.0" width="375" height="144.5"/>
+                                                    <rect key="frame" x="0.0" y="3" width="375" height="139"/>
                                                 </imageView>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="HOODIES" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fsv-zg-hjy">
                                                     <rect key="frame" x="107" y="58.5" width="160" height="28"/>
@@ -56,9 +57,9 @@
                                             <constraints>
                                                 <constraint firstItem="fsv-zg-hjy" firstAttribute="centerX" secondItem="N30-i0-e9e" secondAttribute="centerX" id="1bN-kr-MwZ"/>
                                                 <constraint firstItem="fsv-zg-hjy" firstAttribute="centerY" secondItem="N30-i0-e9e" secondAttribute="centerY" id="3hV-6Z-fJ9"/>
-                                                <constraint firstAttribute="bottom" secondItem="vcq-aI-DdR" secondAttribute="bottom" id="TQn-XF-Djb"/>
+                                                <constraint firstAttribute="bottom" secondItem="vcq-aI-DdR" secondAttribute="bottom" constant="3" id="TQn-XF-Djb"/>
                                                 <constraint firstItem="vcq-aI-DdR" firstAttribute="leading" secondItem="N30-i0-e9e" secondAttribute="leading" id="b5t-oe-h2D"/>
-                                                <constraint firstItem="vcq-aI-DdR" firstAttribute="top" secondItem="N30-i0-e9e" secondAttribute="top" id="uTF-Un-L0v"/>
+                                                <constraint firstItem="vcq-aI-DdR" firstAttribute="top" secondItem="N30-i0-e9e" secondAttribute="top" constant="3" id="uTF-Un-L0v"/>
                                                 <constraint firstAttribute="trailing" secondItem="vcq-aI-DdR" secondAttribute="trailing" id="ylZ-qf-1vb"/>
                                             </constraints>
                                         </tableViewCellContentView>
@@ -74,10 +75,10 @@
                         <constraints>
                             <constraint firstAttribute="trailing" secondItem="Ira-0T-DAV" secondAttribute="trailing" id="1d7-pi-jmg"/>
                             <constraint firstItem="RUI-NA-bx0" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="5iK-Fc-Hpi"/>
-                            <constraint firstItem="Ira-0T-DAV" firstAttribute="top" secondItem="RUI-NA-bx0" secondAttribute="bottom" constant="16" id="aWB-Y7-rQm"/>
+                            <constraint firstItem="Ira-0T-DAV" firstAttribute="top" secondItem="RUI-NA-bx0" secondAttribute="bottom" constant="8" id="aWB-Y7-rQm"/>
                             <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="Ira-0T-DAV" secondAttribute="bottom" id="jhW-bS-qgE"/>
                             <constraint firstItem="Ira-0T-DAV" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="pmn-5Z-qqa"/>
-                            <constraint firstItem="RUI-NA-bx0" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="16" id="sa9-Fb-Ykw"/>
+                            <constraint firstItem="RUI-NA-bx0" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="8" id="sa9-Fb-Ykw"/>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" title="CODER-SWAG" id="4Q2-Cr-oJB"/>

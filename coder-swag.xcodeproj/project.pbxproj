@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		EE92401E1F345F23001224F8 /* ProductCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE92401D1F345F23001224F8 /* ProductCell.swift */; };
+		EE9240201F346053001224F8 /* Product.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE92401F1F346053001224F8 /* Product.swift */; };
+		EE9240241F346776001224F8 /* ProductVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE9240231F346776001224F8 /* ProductVC.swift */; };
 		EEBF999D1F341ECA007FB2DE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEBF999C1F341ECA007FB2DE /* AppDelegate.swift */; };
 		EEBF999F1F341ECA007FB2DE /* CategoriesVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEBF999E1F341ECA007FB2DE /* CategoriesVC.swift */; };
 		EEBF99A21F341ECA007FB2DE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EEBF99A01F341ECA007FB2DE /* Main.storyboard */; };
@@ -18,6 +21,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		EE92401D1F345F23001224F8 /* ProductCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProductCell.swift; sourceTree = "<group>"; };
+		EE92401F1F346053001224F8 /* Product.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Product.swift; sourceTree = "<group>"; };
+		EE9240231F346776001224F8 /* ProductVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProductVC.swift; sourceTree = "<group>"; };
 		EEBF99991F341EC9007FB2DE /* coder-swag.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "coder-swag.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		EEBF999C1F341ECA007FB2DE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		EEBF999E1F341ECA007FB2DE /* CategoriesVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoriesVC.swift; sourceTree = "<group>"; };
@@ -77,6 +83,7 @@
 			isa = PBXGroup;
 			children = (
 				EEBF999E1F341ECA007FB2DE /* CategoriesVC.swift */,
+				EE9240231F346776001224F8 /* ProductVC.swift */,
 			);
 			name = Controller;
 			sourceTree = "<group>";
@@ -85,6 +92,7 @@
 			isa = PBXGroup;
 			children = (
 				EEBF99B31F342BCD007FB2DE /* Category.swift */,
+				EE92401F1F346053001224F8 /* Product.swift */,
 			);
 			name = Model;
 			sourceTree = "<group>";
@@ -93,6 +101,7 @@
 			isa = PBXGroup;
 			children = (
 				EEBF99B11F342846007FB2DE /* CategoryCell.swift */,
+				EE92401D1F345F23001224F8 /* ProductCell.swift */,
 			);
 			name = View;
 			sourceTree = "<group>";
@@ -181,8 +190,11 @@
 				EEBF999F1F341ECA007FB2DE /* CategoriesVC.swift in Sources */,
 				EEBF999D1F341ECA007FB2DE /* AppDelegate.swift in Sources */,
 				EEBF99B21F342846007FB2DE /* CategoryCell.swift in Sources */,
+				EE92401E1F345F23001224F8 /* ProductCell.swift in Sources */,
+				EE9240241F346776001224F8 /* ProductVC.swift in Sources */,
 				EEBF99B41F342BCD007FB2DE /* Category.swift in Sources */,
 				EEBF99B71F342D15007FB2DE /* DataService.swift in Sources */,
+				EE9240201F346053001224F8 /* Product.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -348,6 +360,7 @@
 				EEBF99AD1F341ECA007FB2DE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
